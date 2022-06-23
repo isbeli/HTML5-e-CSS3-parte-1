@@ -5,14 +5,16 @@ body{
 
 /* ******************banner****************** */
 #banner {
-    width: 100%;
+    width: 50%;
     opacity: 0.8;
+   
 }
 
 /* **************Sobre nós****************** */
 
 #principal {
-    background-color: deeppink;
+    margin: 100px 5px 120px 5px;
+    padding: 30px 5% 0px 100px;
 }
 
 .contenido p{
@@ -25,8 +27,9 @@ body{
 #principal > h1 {
     text-align: center;
     font-family: 'Righteous', cursive;
-    padding-top: 35px;
-    background-color: deeppink;
+    padding: 35px;
+    margin-bottom: 50px;
+    background-color: #fcccc7;
     color: #fff;
 }
 
@@ -39,7 +42,19 @@ body{
 /* *************Principios***************** */
 
 #principios{
-    background-color: aqua;
+    display: flex;
+}
+
+.valores{
+    flex-direction: row;
+    margin: 50px 100px 0px 100px;
+}
+
+.img_valores{
+    justify-content: center;
+    margin-bottom: -35px;
+    margin-left: 135px;
+    transform: scale(1.5);
 }
 
 .valores p > em {
@@ -48,6 +63,7 @@ body{
     font-family: 'Righteous', cursive;
     text-align: justify;
     line-height: 1.5;
+    margin: -46px 100px -37px 100px;
 }
 
 .valores p{
@@ -56,6 +72,7 @@ body{
     text-align: justify;
     font-family: sans-serif;
     line-height: 1.5;
+    margin: 50px;
 }
 
 
@@ -66,21 +83,48 @@ body{
 }
 
 
-#objetivos h2 > strong{
+#objetivos h2{
     color: #d65b66;
     font-size: 35px;
     font-family: 'Righteous', cursive;
     text-align: justify;
     text-align: center;
     line-height: 1.5;
-} 
-#objetivos p{
-    color: #000000;
-    font-size: 16px;
-    text-align: justify;
-    font-family: sans-serif;
-    line-height: 1.5;
 }
+
+#objetivos h3{
+    color: #d65b66;
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+    text-align: justify;
+    line-height: 1.5;
+} 
+
+#objetivos h4{
+    color: #d65b66;
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+    text-align: justify;
+    line-height: 1.5;
+} 
+
+#objetivo h5{
+
+    color: #000000;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+} 
+
+#objetivo h5 em{
+
+    color: #d65b66;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+} 
 
 .itens strong{
     color: #000000;
@@ -89,11 +133,39 @@ body{
     font-family: sans-serif;
     line-height: 1.5;
 }
-.obj_geral{
+
+
+/* *************Compromisso****************** */
+
+#compromisso{
+   width: 100%;
+
+}
+div#compromisso {
+    display: inline-flex;
+    margin: inherit;
+    padding: 40px 60px 40px 60px;
+}
+
+#compromisso p{
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding: 100px 100px 100px 100px;
+}
+
+#compromisso p > em{
     color: #d65b66;
     font-size: 20px;
-    font-family: 'Righteous', cursive;
     text-align: justify;
-    align-items: center;
+    font-family: sans-serif;
     line-height: 1.5;
+    font-weight: bold;
+}
+
+.img_compromisso {
+    border-radius: 50px;
+    box-shadow: 10px 2px 2px #d65b659a;
 }
