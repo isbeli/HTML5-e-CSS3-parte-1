@@ -24,18 +24,18 @@ body{
     line-height: 1.5;
 }
 
-#principal > h1 {
+#principal > h2 {
     text-align: center;
+    font-size: 40px;
     font-family: 'Righteous', cursive;
     padding: 35px;
     margin-bottom: 50px;
-    background-color: #fcccc7;
-    color: #fff;
+    color: #000000;
 }
 
-#principal h1 > strong{
+#principal h2 > strong{
     color: #d65b66;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 
@@ -43,6 +43,7 @@ body{
 
 #principios{
     display: flex;
+    background-color: #fee8e6a1;
 }
 
 .valores{
@@ -78,12 +79,17 @@ body{
 
 /* *************Objetivos****************** */ 
 
-#objetivos{
-    background-color: blueviolet;
+#objetivos p{
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 50px;
 }
 
 
-#objetivos h2{
+#objetivos h3{
     color: #d65b66;
     font-size: 35px;
     font-family: 'Righteous', cursive;
@@ -92,49 +98,40 @@ body{
     line-height: 1.5;
 }
 
-#objetivos h3{
-    color: #d65b66;
-    font-size: 35px;
-    font-family: 'Righteous', cursive;
-    text-align: justify;
-    line-height: 1.5;
-} 
-
 #objetivos h4{
     color: #d65b66;
     font-size: 35px;
     font-family: 'Righteous', cursive;
     text-align: justify;
     line-height: 1.5;
+    margin: 78px 78px 50px 78px;
 } 
 
-#objetivo h5{
-
-    color: #000000;
-    font-size: 35px;
-    font-family: sans-serif;
-    text-align: justify;
-    line-height: 1.5;
-} 
-
-#objetivo h5 em{
-
+#objetivos h5{
     color: #d65b66;
     font-size: 35px;
-    font-family: sans-serif;
+    font-family: 'Righteous', cursive;
     text-align: justify;
     line-height: 1.5;
+    margin: 100px 78px 50px 78px;
 } 
+
 
 .itens strong{
     color: #000000;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     font-family: sans-serif;
     line-height: 1.5;
 }
 
-
+li.itens {
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
 /* *************Compromisso****************** */
 
 #compromisso{
@@ -144,7 +141,7 @@ body{
 div#compromisso {
     display: inline-flex;
     margin: inherit;
-    padding: 40px 60px 40px 60px;
+    padding: 90px 60px 40px 60px;
 }
 
 #compromisso p{
@@ -166,6 +163,8 @@ div#compromisso {
 }
 
 .img_compromisso {
-    border-radius: 50px;
-    box-shadow: 10px 2px 2px #d65b659a;
+    width: 50%;
+    border-radius: 48px;
+    box-shadow: 10px 10px 10px 10px #d65b659a;
+
 }
