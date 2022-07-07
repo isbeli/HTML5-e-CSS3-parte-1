@@ -1,3 +1,6 @@
+*body{
+    height: 100vh;
+}
 header{
     background-repeat: no-repeat;
     background: #1a1f29;
@@ -61,12 +64,10 @@ nav a:hover{
     border: 2px solid #000000;
     border-radius: 10px;
 
-   
-    background: rgba(237, 29, 132, 0.17);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.5px);
-    -webkit-backdrop-filter: blur(3.5px);
+    background: rgb(238 70 153 / 11%);
+    box-shadow: 0 -10px 30px rgb(214 24 141 / 30%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3.1px);
 }
 
 .cursos li:hover{
@@ -90,6 +91,32 @@ nav a:hover{
     margin-top: 10px;
 }
 
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao { 
+    display: block;
+    margin:0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbo {
+    margin: 20px 0;
+}
 footer{
     text-align: center;
     background-color: #1a1f29;
