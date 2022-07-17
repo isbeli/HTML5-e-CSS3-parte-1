@@ -139,9 +139,8 @@ li.itens {
 
 }
 div#compromisso {
-    display: inline-flex;
     margin: inherit;
-    padding: 90px 60px 40px 60px;
+    padding: 85px 0px 85px 0px;
 }
 
 #compromisso p{
